@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'manageiq/v2v/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "manageiq-v2v"
+  spec.name          = "manageiqv2v"
   spec.version       = ManageIQ::V2V::VERSION
   spec.authors       = ["ManageIQ Authors"]
 
